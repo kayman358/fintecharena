@@ -1,0 +1,73 @@
+
+@import "//fonts.googleapis.com/css?family=Droid+Serif";  /* This Line is to import Google font style */
+
+
+
+pre {
+    overflow: auto;  white-space: pre-wrap; tab-size: 2;
+}
+
+li{
+    margin-right:52px;
+
+    font-family:'Droid Serif',serif
+}
+#main{
+    color: green;
+}
+
+#main a:hover{background-color: green; }
+
+.row ul li {
+    display: inline;
+}
+
+.row2 ul li a i {
+    display: inline;
+}
+  .required:before { color: #d00;content:" *"; }
+
+  #news{
+      text-align: center; font-family: sans-serif; 
+      font-weight: bold; font-size: 15px; height: fit-content; 
+      border: 1px solid black; border-radius: 10px; text-decoration: underline; text-decoration: #ffffff; text-decoration: underline;
+      
+  }
+  #news a:hover{
+      background-color: darkblue; color: white; text-decoration: none;
+  }
+  #topics{
+      text-align: center; font-weight: bold; font-size: 15px;
+      height: fit-content; border: 1px solid black; border-radius: 5px; background: #CCC 
+  }
+
+   #posts{
+      text-align: center; font-weight: bold; font-size: 15px;
+      height: fit-content; border: 1px solid black; border-radius: 5px; background: #CCC 
+  }
+  
+  #postBody{
+      font-size: 13px; text-align: justify;
+      height: fit-content; border: 1px solid black; border-radius: 5px; background: #CCC; line-height: 2.5;  font-family: verdana, sans-serif;
+  }
+  
+ 
+  
+  #comment{
+      font-size: 13px; text-align: justify;
+      height: fit-content; border: 1px solid black; border-radius: 5px; background: #CCC; line-height: 2.5;  font-family: verdana, sans-serif;
+  }
+  
+    #postSubject{
+      font-size: 18px; font-weight: bold;
+      height: fit-content; border: 1px solid black; border-radius: 5px; background: #CCC 
+  }
+
+/*1px threeddarkshadow dashed;*/
+/*  body{
+       background-image: url("../../resources/css/plain1.jpg");
+      height: 100%;
+      
+      background-position: center;
+      background-repeat: no-repeat;
+  }*/
